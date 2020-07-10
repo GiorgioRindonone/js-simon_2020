@@ -58,7 +58,7 @@ function askNumberUser() {
 
     var number = parseInt(prompt('Inserisci un numero'));
     //controllo che non abbia inserito lo stesso numero
-    if(!numberUser.includes(number) && !isNan(number)) {
+    if(!numberUser.includes(number) && !isNaN(number)) {
       numberUser.push(number);
     }
     i++;
