@@ -54,7 +54,7 @@ function askNumberUser() {
   //dobbiamo controllare che è un numero
   //dobbiamo girare finché
   // var i = 0;
-  while (numberUser.lenght < arrayNum.length) {
+  while (numberUser.length < arrayNum.length) {
 
     var number = parseInt(prompt('Inserisci un numero'));
     //controllo che non abbia inserito lo stesso numero
